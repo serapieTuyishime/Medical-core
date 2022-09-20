@@ -10,7 +10,7 @@ body{
     padding: 10px 0px;
     display: grid;
     grid-template-columns: 30% 42% 28%;
-    font-weight: 700;
+    font-weight: 800;
     align-items: center;
 }
 
@@ -21,7 +21,7 @@ body{
     padding-left: 60px;
 
 }
-.menu-bar__links--text-muted{
+.links--text-muted{
     display: flex;
     column-gap: 28px;
     color: #737373;
@@ -57,49 +57,60 @@ body{
     height: 660px;
 }
 
-.welcome__text--big{
-    font-size: 58px;
+.title{
+    font-size: 40px;
     line-height: 80px;
     font-weight: 700;
     letter-spacing: 0.2px;
     color: #252B42;
-}
-.welcome label{
     display: block;
 }
-.welcome__text--muted, .content__text--muted{
+
+.title--text-large{
+    font-size: 58px;
+}
+.objective{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    color: #737373;
+}
+
+.objective--small-width{
+    width: 70%;
+}
+
+.welcome__desc{
     font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
     color: #737373;
     padding: 20px 0px;
+    display: block;
 }
 
-.content__text--muted{
-    font-size: 16px;
-}
-
-.welcome__text--primary{
+.guide{
     color: #1BA0AB;
     font-weight: 700;
     letter-spacing: 0.2px;
     padding-bottom: 25px;
     font-size: 16px;
+    display: block;
 }
 
 
 .content{
     padding: 80px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
 }
 .content__text{
     display: grid;
-    align-items: center;
+    align-content: center;
     padding:80px;
-
-
 }
-.content__hr{
+
+.content__separator{
     width: 90px;
     height: 6px;
     border: none;
@@ -107,30 +118,16 @@ body{
     background: #E74040;
     margin: 30px 5px;
 }
-.content__text--big
-{
-    font-size: 28px;
-    
-}
-.welcome__text--padded{
+
+.guide--padded{
     padding: 12px 0px;
 }
-.welcome__text--bold{
-    font-weight: 700;
-}
 
-.welcome__text--muted{
-    color: #737373;
-}
-.content__text--muted{
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    color: #737373;
-}
 .content__image{
     display: grid;
     justify-items: right;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .teams{
@@ -175,17 +172,27 @@ body{
     margin-bottom: 5px;
 }
 
-.card__name, .card__proffesion{
+.card__text{
     display: block;
     margin: 0px auto;
 }
+
+.card__text--bold{
+    font-weight: 700;
+}
+
+.card__text--muted{
+    color: #737373;
+}
+
+
 .card__socials{
     display: flex;
     justify-content: center;
     gap: 18px;
 }
 
-.card__socials img{
+.card__icon{
     width: 18px ;
 }
 
@@ -201,11 +208,9 @@ body{
     align-content: center;
     justify-content: center;
     justify-items: center;
-}
-.footer__text{
-    width: 50%;
     text-align: center;
 }
+
 .footer__form{
     display: grid;
     grid-template-columns: 75% 25%;
@@ -246,7 +251,7 @@ body{
     .menu-bar{
         grid-template-columns: 50% 50%;
     }
-    .menu-bar__links{
+    .links{
         display: none;
     }
     .welcome{
@@ -255,14 +260,14 @@ body{
     .welcome__empty{
         display: none;
     }
-    .welcome__text--big{
+    .title--text-large{
         font-size: 25px;
         line-height: 35px;
     }
-    .welcome__text--padded{
+    .guide--padded{
         padding: 3px 0px;
     }
-    .welcome__text--big-in-sm{
+    .guide--big{
         margin-top: 40px;
         font-size: 40px;
         line-height: 55px;
