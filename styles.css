@@ -138,9 +138,6 @@ body{
     width: 50%;
        
 }
-.teams__text label{
-    display: block;
-}
 .teams__images{
     display: flex;
     gap: 1rem;   
@@ -228,7 +225,7 @@ body{
     margin: 0px ;
 
 }
-.menu-bar__bottom{
+.links--bottom{
     display: none;
     width: 50%;
     margin: 2rem auto;
@@ -314,7 +311,7 @@ body{
         height: 100%;
         padding: 0;
     }
-    .menu-bar__bottom{
+    .links--bottom{
         display: flex;
         color: black;
         font-weight: 700;
